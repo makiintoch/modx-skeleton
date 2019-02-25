@@ -1,0 +1,15 @@
+id: 1
+source: 2
+templatename: Main
+description: ''
+properties: 'a:1:{s:3:"tpl";a:7:{s:4:"name";s:3:"tpl";s:4:"desc";s:0:"";s:4:"type";s:9:"textfield";s:7:"options";a:0:{}s:5:"value";s:4:"main";s:7:"lexicon";N;s:4:"area";s:0:"";}}'
+static: 1
+static_file: template.php
+
+-----
+
+{set $properties['tpl'] = $_modx->getPlaceholder('template.tpl')}
+{if empty($properties['tpl'])}
+{set $properties['tpl'] = "default"}
+{/if}
+{include "file:templates/tpl/{$properties['tpl']}.tpl"}
