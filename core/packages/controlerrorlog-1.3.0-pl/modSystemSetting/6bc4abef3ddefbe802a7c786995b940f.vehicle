@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'controlerrorlog',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3634058ff6f3b9e0998aad8241d81069',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '6bc4abef3ddefbe802a7c786995b940f',
+  'native_key' => 'controlerrorlog.control_frontend',
+  'object' => '{"key":"controlerrorlog.control_frontend","value":false,"xtype":"combo-boolean","namespace":"controlerrorlog","area":"controlerrorlog.main","editedon":null}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'controlerrorlog',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '480508a17f6a747f6821938f4924e734',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '8116a05147f83bbb15fb95f8a7d00a51',
+  'native_key' => 'controlerrorlog.admin_email',
+  'object' => '{"key":"controlerrorlog.admin_email","value":"","xtype":"textfield","namespace":"controlerrorlog","area":"controlerrorlog.main","editedon":null}',
+);

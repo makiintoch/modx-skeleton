@@ -1,0 +1,16 @@
+config.core.php
+config.inc.php
+
+cache_image
+.cache
+.sass-cache
+html/assets/components/minifyx/cache/
+core/cache/*
+
+html/upload/*
+
+/bower_components
+/node_modules
+    
+.idea/*
+.vscode/*
